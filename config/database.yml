@@ -28,5 +28,4 @@ production:
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: d7i4907nvufhf6
   username: aypuxykmvecstd
-  password: b9d104c5967eef588d838de06419f496e53758a9cf6f49560260ff644d9f38ef
-  # password: <%= ENV['SAMPLE_APP_DATABASE_PASSWORD'] %>
+  password: <%= ENV['SAMPLE_APP_DATABASE_PASSWORD'] %>
